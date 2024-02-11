@@ -1,0 +1,29 @@
+# versionは、3系
+version: "3"
+# Serviceを設定する
+services:
+  # Service名は、自由に決めていい
+  frontend:
+    # DockerfileまでのPath
+    build: .
+    # ホストマシン:コンテナ => ファイルを共有するための設定
+    volumes:
+      - ./app:/usr/src/app
+    # ホストマシンPort番号:コンテナのPost番号
+    ports:
+      # Next.js との ポートフォワード
+      - 3008:3000
+      # StoryBook との ポートフォワード
+      - 6006:6006
+    # CLI画面の操作をできるようにする
+    # コンテナに名前をつける
+    container_name: travel-bonds-frontend
+    tty: true
+# servicesと同じ階層(レベル)で、networks という項目を設定
+# Docker Compose環境が接続するNetworkを追加する
+networks:
+  travel-bonds-network:
+    # Networkの名前
+    name: travel-bonds-network
+    # external: true はdocker-composeで管理されていない外部のネットワークという意味
+    external: true

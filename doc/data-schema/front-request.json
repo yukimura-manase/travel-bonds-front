@@ -1,0 +1,15 @@
+{
+  "favoriteList": [
+    "テーマパーク",
+    "カフェ",
+    "映画館",
+    "美術館",
+    "動物園",
+    "水族館"
+  ],
+  "userCurrentPosition": {
+    "address": "日本、〒136-0072 東京都江東区大島７丁目３６−５",
+    "latitude": 0,
+    "longitude": 0
+  }
+}

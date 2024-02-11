@@ -1,0 +1,29 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "name": "東京スカイツリー",
+      "description": "東京スカイツリーは、東京都墨田区押上にある電波塔である。",
+      "address": "東京都墨田区押上1-1-2",
+      "recommended_points": "展望台からの眺め",
+      "latitude": 35.710063,
+      "longitude": 139.8107
+    },
+    {
+      "name": "東京ディズニーランド",
+      "description": "東京ディズニーランドは、千葉県浦安市舞浜にあるディズニーパークである。",
+      "address": "千葉県浦安市舞浜1-1",
+      "recommended_points": "アトラクション",
+      "latitude": 35.632896,
+      "longitude": 139.880394
+    },
+    {
+      "name": "東京タワー",
+      "description": "東京タワーは、東京都港区芝公園にある電波塔である。",
+      "address": "東京都港区芝公園4-2-8",
+      "recommended_points": "展望台からの眺め",
+      "latitude": 35.658581,
+      "longitude": 139.745433
+    }
+  ]
+}
